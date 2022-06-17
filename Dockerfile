@@ -3,4 +3,4 @@ RUN apt-get update
 RUN apt-get install -y git
 EXPOSE 80
 RUN rm -Rf /var/www/html/*
-RUN git clone https://github.com/ElieGel/static-website-example.git /var/www/html/
+RUN git clone https://github.com/AmauryREG/static-website-example.git /var/www/html/
